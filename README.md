@@ -1,1 +1,1 @@
-# AnimationCollection
+# 将平时碰到的一些有趣的View控件动画特效等实现.
