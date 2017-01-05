@@ -1,1 +1,1 @@
-include ':waveview'
+include ':waveview', ':behavior'
