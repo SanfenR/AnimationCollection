@@ -17,7 +17,7 @@ import java.util.LinkedList;
  * @version 1.0.0
  */
 
-public class BannerView extends LinearLayout implements Runnable {
+public class  BannerView extends LinearLayout implements Runnable {
 
     public static final int DEFAULT_MAX_COUNT = 3;
     public static final long DEFAULT_DELETE_TIME = 8 * 1000;
