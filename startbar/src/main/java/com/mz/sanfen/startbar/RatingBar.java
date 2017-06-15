@@ -31,9 +31,6 @@ public class RatingBar extends View {
     private Paint emptyPaint;
     private Paint fillPaint;         //绘制评分星星
 
-
-    private boolean integerMark = false;
-
     public RatingBar(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context, attrs);
@@ -79,12 +76,12 @@ public class RatingBar extends View {
      * @param mark
      */
     public void setStarMark(float mark) {
-        if (integerMark) {
-            starMark = (int) Math.ceil(mark);
-        } else {
-            starMark = Math.round(mark / rating) * rating * 1.0f;
-        }
+        float starMark = Math.round(mark / rating) * rating * 1.0f;
 
+        if (starMark == this.starMark) {
+            return;
+        }
+        this.starMark = starMark;
         if (this.onStarChangeListener != null) {
             this.onStarChangeListener.onStarChange(starMark);  //设置监听
         }
