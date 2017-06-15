@@ -1,1 +1,1 @@
-include ':waveview', ':behavior', ':bannerview'
+include ':waveview', ':behavior', ':bannerview', ':startbar'
