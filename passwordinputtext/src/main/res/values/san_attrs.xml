@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PasswordInputView">
+        <attr name="backgroundColor" format="color|reference" />
+        <attr name="passwordColor" format="color|reference" />
+        <attr name="passwordWidth" format="dimension|reference" />
+        <attr name="passwordHeight" format="dimension|reference" />
+        <attr name="passwordDistance" format="dimension|reference"/>
+        <attr name="passwordRadius" format="dimension|reference"/>
+        <attr name="passwordIcon" format="reference"/>
+        <attr name="passwordIconWidth" format="dimension|reference"/>
+        <attr name="passwordIconHeight" format="dimension|reference"/>
+    </declare-styleable>
+
+</resources>
