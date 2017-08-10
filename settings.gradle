@@ -1,1 +1,1 @@
-include ':waveview', ':behavior', ':bannerview', ':startbar', ':passwordinputtext'
+include ':waveview', ':behavior', ':bannerview', ':startbar', ':passwordinputtext', ':dragrecyclerview', ':demo', ':itemtouchhelperdemo'
